@@ -1,0 +1,135 @@
+@font-face{
+	font-family:Twisted;
+	src:url('../fonts/Twisted.ttf');
+}
+body{
+	background:url('../images/bookstore.jpeg') fixed;
+}
+li>a:hover, li>a{
+	text-decoration: none;
+	font-weight:bolder;
+	font-size: 20px
+}
+
+.main{
+			background-color: #181818;
+			width: 1000px;
+			margin: 8px auto;
+			color: #111;
+			padding: 15px 20px;
+			border: 1px solid #222;
+			
+		}
+		.main  li, .main > ul > li{
+			list-style-type: none!important;
+			float: left;
+		}
+		.main > ul{
+			list-style-type: none!important;
+			float: left;
+		}
+		.main > ul a{
+			display: block;
+			padding: 6px 10px;
+			text-decoration: none!important;
+			margin: 1px 1px 1px 0;
+			color: #FFF;
+			background: #444;
+		}
+		.main > ul a:hover{
+			color: #FFF;
+			background: #111;
+		}
+
+		.main ul a.selected{
+			margin-bottom: 0;
+			color: #000;
+			background: snow;
+			border-bottom: 1px solid snow;
+			cursor: default;
+		}
+		.main > div{
+			padding: 10px 10px 8px 10px;
+			padding-top: 3px;
+			margin-top: -15px;
+			clear:left;
+			background: snow;
+			height: 400px;
+			overflow:scroll;
+		}
+li>a, .icon-bar{
+	color:#fff;
+}
+video{
+	position:fixed;
+	z-index:-3;
+	top:0;	
+	left:0;
+	width:100%;
+}
+table{
+	background-color:#ccc;
+	text-align: center;
+}
+table th{
+	text-align: center;
+}
+h1{
+	text-align:center;
+	font-family:"Times New Roman", Georgia, Serif;
+	text-shadow: 0 0 15px #666;
+	font-weight: bolder;
+	color:#000;
+}
+#in, #out>a, #signup{
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 20px;
+	color:#fff;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#out>a:hover{
+	text-decoration: none;
+}
+#in:hover, #out a:hover, #signup:hover{
+	cursor: pointer;
+	color: #ffaaff;
+}
+
+nav.navbar, nav, form.auth, form#empsignup{
+	background:#000;
+
+}
+nav{
+	min-width:1000px;
+}
+nav, form.auth, form#empsignup{
+	color:#fff;
+}
+form.auth input[type=text], form#empsignup input{
+	color:#000!important;
+}
+input[type="submit"]{
+	color:#000;
+}
+form.auth, form#empsignup{
+	width:20%;
+	padding:20px;
+	box-shadow: 0 0 20px #fff;
+	position:absolute;
+	z-index: 3;
+	display: none;
+	margin-left: 10px;
+	
+}
+h1#title{
+	display:block;
+	width:100%;
+	text-align: center;
+	margin:auto;
+	font-family: Twisted, Georgia, Serif;
+	font-size:400%;
+	text-shadow: 0 0 15px #fff;
+	font-weight: bolder;
+	color:#000;
+}
